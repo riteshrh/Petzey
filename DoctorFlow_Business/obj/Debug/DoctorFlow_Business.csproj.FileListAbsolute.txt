@@ -1,0 +1,30 @@
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\bin\Debug\DoctorFlow_Business.dll
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\bin\Debug\DoctorFlow_Business.pdb
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\obj\Debug\DoctorFlow_Business.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\obj\Debug\DoctorFlow_Business.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\obj\Debug\DoctorFlow_Business.dll
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\obj\Debug\DoctorFlow_Business.pdb
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\bin\Debug\DoctorFlow_Data.dll
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\bin\Debug\RepositoryClassLibrary.dll
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\bin\Debug\DoctorFlow_Data.pdb
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\bin\Debug\DoctorFlow_Data.dll.config
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\bin\Debug\RepositoryClassLibrary.pdb
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\bin\Debug\RepositoryClassLibrary.dll.config
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\DoctorFlow\DoctorFlow_Business\obj\Debug\DoctorFlow_Business.csproj.CopyComplete
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Debug\DoctorFlow_Business.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Debug\DoctorFlow_Business.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Debug\DoctorFlow_Data.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Debug\RepositoryClassLibrary.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Debug\DoctorFlow_Data.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Debug\DoctorFlow_Data.dll.config
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Debug\RepositoryClassLibrary.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Debug\RepositoryClassLibrary.dll.config
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\obj\Debug\DoctorFlow_Business.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\obj\Debug\DoctorFlow_Business.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\obj\Debug\DoctorFlow_Business.csproj.CopyComplete
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\obj\Debug\DoctorFlow_Business.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\obj\Debug\DoctorFlow_Business.pdb

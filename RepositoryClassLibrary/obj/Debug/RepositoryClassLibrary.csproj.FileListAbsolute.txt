@@ -1,0 +1,30 @@
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\bin\Debug\RepositoryClassLibrary.dll.config
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\bin\Debug\RepositoryClassLibrary.dll
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\bin\Debug\RepositoryClassLibrary.pdb
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\bin\Debug\DoctorFlow_Data.dll
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\bin\Debug\DoctorFlow_Data.pdb
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\bin\Debug\DoctorFlow_Data.dll.config
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\obj\Debug\RepositoryClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\obj\Debug\RepositoryClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\obj\Debug\RepositoryClassLibrary.csproj.CopyComplete
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\obj\Debug\RepositoryClassLibrary.dll
+C:\Users\Admin\Desktop\DoctorFlow\RepositoryClassLibrary\obj\Debug\RepositoryClassLibrary.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\obj\Debug\RepositoryClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\obj\Debug\RepositoryClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\obj\Debug\RepositoryClassLibrary.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\obj\Debug\RepositoryClassLibrary.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\bin\Debug\RepositoryClassLibrary.dll.config
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\bin\Debug\RepositoryClassLibrary.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\bin\Debug\RepositoryClassLibrary.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\bin\Debug\DoctorFlow_Data.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\bin\Debug\DoctorFlow_Data.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\bin\Debug\DoctorFlow_Data.dll.config
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\RepositoryClassLibrary\obj\Debug\RepositoryClassLibrary.csproj.CopyComplete

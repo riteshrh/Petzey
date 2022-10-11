@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2022-10-11T09:01:54.9611178Z"
+    },
+    "mssql3": {
+      "restored": true,
+      "restoreTime": "2022-10-11T11:26:03.8047652Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-10-10T12:29:25.7272687Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2022-10-11T11:25:47.1042603Z"
+    }
+  },
+  "parameters": {
+    "mssql3.subscriptionId": {
+      "Name": "mssql3.subscriptionId",
+      "Type": "subscription",
+      "Value": "beb8e57e-1e48-40da-8f3c-aa1604a934dd"
+    },
+    "mssql3.resourceGroupName": {
+      "Name": "mssql3.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "PetzyDoctorFlow"
+    }
+  }
+}
