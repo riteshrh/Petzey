@@ -2,6 +2,7 @@
 using DoctorFlow_Data.Data;
 using DoctorFlow_Data.Data.FeedbackData;
 using DoctorFlow_Data.Entities;
+using DTOSLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,7 +63,7 @@ namespace DoctorFlow_UI.Controllers
 
         [HttpPost]
         [Route("api/feedbacks")]
-        public IHttpActionResult Post(Feedback feedback)
+        public IHttpActionResult Post(FeedbackDto feedback)
         {
             if (!ModelState.IsValid)
             {
@@ -72,7 +73,7 @@ namespace DoctorFlow_UI.Controllers
             {
                 feedbackManager.Add(feedback);
             }
-            return Created($"api/feedback/{feedback.Feedback_ID}", feedback);
+            return Ok();
         }
 
 
@@ -80,7 +81,7 @@ namespace DoctorFlow_UI.Controllers
         [Route("api/feedbacks/{id}")]
         public IHttpActionResult Delete(int id)
         {
-            Feedback feedback = feedbackManager.GetById(id);
+            FeedbackDto feedback = feedbackManager.GetById(id);
             if (feedback == null)
             {
                 return NotFound();

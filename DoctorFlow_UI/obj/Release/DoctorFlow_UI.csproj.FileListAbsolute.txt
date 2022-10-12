@@ -128,3 +128,5 @@ C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\Doct
 C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_UI\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
 C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_UI\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
 C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_UI\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_UI\bin\Dtos.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_UI\bin\Dtos.pdb

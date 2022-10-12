@@ -1,4 +1,5 @@
 ﻿using DoctorFlow_Data.Entities;
+using DTOSLibrary;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.SymbolStore;
@@ -11,12 +12,12 @@ namespace DoctorFlow_Business.DoctorBusiness
     public interface IDoctorManager
     {
 
-        IEnumerable<Doctor> GetDoctors();
-        Doctor GetDoctorById(long id);
+        List<Doctor> GetDoctors();
+        DoctorDto GetDoctorById(long id);
         void Delete(int id);
         void Update(Doctor doctor);
 
-        void Add(Doctor doctor);
+        void Add(DoctorDto doctor);
 
 
     }

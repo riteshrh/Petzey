@@ -1,5 +1,6 @@
 ﻿using DoctorFlow_Data.Data;
 using DoctorFlow_Data.Entities;
+using DTOSLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,29 +11,50 @@ namespace DoctorFlow_Business.DoctorBusiness
 {
     public class DoctorManager : IDoctorManager
     {
-        IDoctorRepository repository = new DoctorRepository();
+        //IDoctorRepository repository = new DoctorRepository();
+        IDoctorRepository repository = DoctorRepository.GetRepository;
         public void Delete(int id)
         {
             repository.Remove(id);
         }
 
-        public void Add(Doctor doc)
+        public void Add(DoctorDto doc)
         {
-            repository.Add(doc);
+            repository.Add(new Doctor
+            {
+                DoctorName = doc.DoctorName,
+                Clinic = doc.Clinic,
+                Mobile = doc.Mobile,
+                Email = doc.Email,
+                NPI = doc.NPI,
+                Image = doc.Image,
+                Speciality = doc.Speciality
+            });
             return;
         }
 
-        public Doctor GetDoctorById(long id)
+        public DoctorDto GetDoctorById(long id)
         {
             Doctor doc = repository.GetById(id);
-            return doc;
+            return new DoctorDto
+            {
+                DoctorName = doc.DoctorName,
+                Clinic = doc.Clinic,
+                Mobile = doc.Mobile,
+                Email = doc.Email,
+                NPI = doc.NPI,
+                Image = doc.Image,
+                Speciality = doc.Speciality
+            };
         }
 
-      
 
-        public IEnumerable<Doctor> GetDoctors()
+
+        public List<Doctor> GetDoctors()
         {
-            return repository.GetDoctors();
+            List<Doctor> dtos = new List<Doctor>();
+            return repository.GetDoctors().ToList();
+
         }
 
         public void Update(Doctor doctor)

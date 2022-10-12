@@ -1,4 +1,5 @@
 ﻿using DoctorFlow_Data.Entities;
+using DTOSLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,9 @@ namespace DoctorFlow_Business.FeedbackBusiness
     public interface IFeedbackManager
     {
         IEnumerable<Feedback> GetFeedbacks();
-        Feedback GetById(long id);
+        FeedbackDto GetById(long id);
 
-        void Add(Feedback feedback);
+        void Add(FeedbackDto feedback);
         void Remove(int id);
     }
 }

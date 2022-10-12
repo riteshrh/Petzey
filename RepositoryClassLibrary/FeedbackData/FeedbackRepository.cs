@@ -9,6 +9,25 @@ namespace DoctorFlow_Data.Data.FeedbackData
 {
     public class FeedbackRepository : IFeedbackRepository
     {
+        private static FeedbackRepository Instance = null;
+        private FeedbackRepository()
+        {
+
+        }
+
+        public static FeedbackRepository GetInstance
+        {
+
+            get
+            {
+
+                if (Instance == null)
+                {
+                    Instance = new FeedbackRepository();
+                }
+                return Instance;
+            }
+        }
         DoctorFlowDbContext _db = new DoctorFlowDbContext();
         public bool Add(Feedback feedback)
         {
@@ -31,7 +50,7 @@ namespace DoctorFlow_Data.Data.FeedbackData
         public void Remove(int id)
         {
             Feedback feedback = _db.Feedbacks.Find(id);
-          _db.Feedbacks.Remove(feedback);
+            _db.Feedbacks.Remove(feedback);
             _db.SaveChanges();
             return;
         }

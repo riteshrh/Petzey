@@ -53,6 +53,10 @@
       <Project>{b41ced02-f66b-4764-ace5-ca8b831b2062}</Project>
       <Name>DoctorFlow_Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Dtos\Dtos.csproj">
+      <Project>{f7035062-8018-4e81-a688-bc07fd4d1794}</Project>
+      <Name>Dtos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RepositoryClassLibrary\RepositoryClassLibrary.csproj">
       <Project>{2495e084-c4fa-4657-8b06-dfe95d53b543}</Project>
       <Name>RepositoryClassLibrary</Name>
