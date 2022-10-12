@@ -21,7 +21,7 @@ namespace DoctorFlow_UI.Controllers
     public class DoctorController : ApiController
     {
         IDoctorManager doctorManager = new DoctorManager();
-        
+
 
 
         [HttpGet]
@@ -64,7 +64,7 @@ namespace DoctorFlow_UI.Controllers
 
         [HttpPost]
         [Route("api/doctors")]
-        
+
         public IHttpActionResult Post(DoctorDto doctor)
         {
             if (!ModelState.IsValid)
@@ -83,7 +83,7 @@ namespace DoctorFlow_UI.Controllers
         [Route("api/doctors/{id}")]
         public IHttpActionResult Delete(int id)
         {
-       
+
 
             doctorManager.Delete(id);
             return Ok();
@@ -93,7 +93,7 @@ namespace DoctorFlow_UI.Controllers
 
 
         [HttpPut]
-       // [Route("api/doctors/{doctor}")]
+        // [Route("api/doctors/{doctor}")]
         public IHttpActionResult Edit(Doctor doctor)
         {
             if (doctor == null)

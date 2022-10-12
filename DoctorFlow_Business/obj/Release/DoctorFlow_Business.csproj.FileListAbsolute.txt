@@ -1,0 +1,17 @@
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\DoctorFlow_Business.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\DoctorFlow_Business.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\DoctorFlow_Data.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\RepositoryClassLibrary.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\EntityFramework.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\DoctorFlow_Data.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\DoctorFlow_Data.dll.config
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\RepositoryClassLibrary.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\RepositoryClassLibrary.dll.config
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\EntityFramework.xml
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\obj\Release\DoctorFlow_Business.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\obj\Release\DoctorFlow_Business.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\obj\Release\DoctorFlow_Business.csproj.CopyComplete
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\obj\Release\DoctorFlow_Business.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\obj\Release\DoctorFlow_Business.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\Dtos.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\Dtos.pdb
