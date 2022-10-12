@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql3": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/petzy-doctorflow-databasedbserver/databases/Petzy_DoctorFlow_DataBase",
+      "type": "mssql.azure",
+      "connectionId": "DoctorDbContext"
+    }
+  }
+}

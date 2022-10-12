@@ -21,7 +21,7 @@ namespace DoctorFlow_Data.Data.FeedbackData
             get
             {
 
-                if(Instance == null)
+                if (Instance == null)
                 {
                     Instance = new FeedbackRepository();
                 }
@@ -50,7 +50,7 @@ namespace DoctorFlow_Data.Data.FeedbackData
         public void Remove(int id)
         {
             Feedback feedback = _db.Feedbacks.Find(id);
-          _db.Feedbacks.Remove(feedback);
+            _db.Feedbacks.Remove(feedback);
             _db.SaveChanges();
             return;
         }

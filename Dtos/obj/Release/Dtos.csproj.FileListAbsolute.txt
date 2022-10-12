@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\Dtos\bin\Release\Dtos.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\Dtos\bin\Release\Dtos.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\Dtos\obj\Release\Dtos.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\Dtos\obj\Release\Dtos.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\Dtos\obj\Release\Dtos.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\Dtos\obj\Release\Dtos.pdb

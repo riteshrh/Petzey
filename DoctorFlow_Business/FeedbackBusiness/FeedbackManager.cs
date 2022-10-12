@@ -26,7 +26,7 @@ namespace DoctorFlow_Business.FeedbackBusiness
                     Doctor_Rating = feedback.Doctor_Rating,
                     Booking_Process = feedback.Booking_Process,
                     Outcome = feedback.Outcome
-                }) ; 
+                });
             return;
         }
 
@@ -38,7 +38,7 @@ namespace DoctorFlow_Business.FeedbackBusiness
                 App_ID = (long)feedback.App_ID,
                 Comp_level = (int)feedback.Comp_level,
                 Doctor_Rating = (int)feedback.Doctor_Rating,
-                Booking_Process =(int) feedback.Booking_Process,
+                Booking_Process = (int)feedback.Booking_Process,
                 Outcome = (int)feedback.Outcome
             };
         }

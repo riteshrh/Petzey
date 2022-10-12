@@ -21,18 +21,18 @@ namespace DoctorFlow_Data.Data
 
             get
             {
-                if(Instance == null)
+                if (Instance == null)
                 {
                     Instance = new DoctorRepository();
                 }
                 return Instance;
             }
         }
-        
+
         private DoctorFlowDbContext _db = new DoctorFlowDbContext();
         public bool Add(Doctor doctor)
         {
-           Doctor doc = _db.Doctors.Add(doctor);
+            Doctor doc = _db.Doctors.Add(doctor);
             _db.SaveChanges();
             if (doc != null) return true;
             return false;
@@ -47,7 +47,7 @@ namespace DoctorFlow_Data.Data
 
         }
 
-       
+
 
         public Doctor GetById(long id)
         {
@@ -68,7 +68,7 @@ namespace DoctorFlow_Data.Data
         public void Remove(int id)
         {
             Doctor doctor = _db.Doctors.FirstOrDefault(d => d.DoctorID == id);
-             _db.Doctors.Remove(doctor);
+            _db.Doctors.Remove(doctor);
             _db.SaveChanges();
             return;
         }
