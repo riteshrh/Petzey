@@ -7,16 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace DoctorFlow_Business.DoctorBusiness
 {
     public class DoctorManager : IDoctorManager
     {
         //IDoctorRepository repository = new DoctorRepository();
         IDoctorRepository repository = DoctorRepository.GetRepository;
+        public Doctor GetDoctorByEmail(string email)
+        {
+            Doctor doc = repository.GetByEmail(email);
+            return doc;
+        }
         public void Delete(int id)
         {
             repository.Remove(id);
         }
+
+
 
         public void Add(DoctorDto doc)
         {
@@ -32,6 +41,8 @@ namespace DoctorFlow_Business.DoctorBusiness
             });
             return;
         }
+
+
 
         public DoctorDto GetDoctorById(long id)
         {
@@ -50,16 +61,38 @@ namespace DoctorFlow_Business.DoctorBusiness
 
 
 
+
+
+
+
         public List<Doctor> GetDoctors()
         {
             List<Doctor> dtos = new List<Doctor>();
             return repository.GetDoctors().ToList();
 
+
+
         }
+
+
 
         public void Update(Doctor doctor)
         {
             repository.Edit(doctor);
+        }
+
+
+
+        Doctor IDoctorManager.GetDoctorByEmail(string email)
+        {
+            throw new NotImplementedException();
+        }
+
+       
+
+        public void Add(Doctor doctor)
+        {
+            throw new NotImplementedException();
         }
     }
 }

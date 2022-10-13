@@ -1,4 +1,5 @@
 ﻿using DoctorFlow_Data.Entities;
+using DoctorFlow_Data.Migrations;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -9,15 +10,21 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace DoctorFlow_Data.Data
 {
     public class DoctorRepository : IDoctorRepository
     {
         private DoctorRepository() { }
 
+
+
         private static DoctorRepository Instance = null;
         public static DoctorRepository GetRepository
         {
+
+
 
             get
             {
@@ -38,32 +45,43 @@ namespace DoctorFlow_Data.Data
             return false;
         }
 
+
+
         public void Edit(Doctor doctor)
         {
 
+
+
             _db.Doctors.AddOrUpdate(doctor);
             _db.SaveChanges();
-
-
         }
+
+
+
+
 
 
 
         public Doctor GetById(long id)
         {
             return _db.Doctors.FirstOrDefault(d => d.DoctorID == id);
-
         }
+
+
 
         public Doctor GetByName(string name)
         {
             return _db.Doctors.FirstOrDefault(d => d.DoctorName == name);
         }
 
+
+
         public IEnumerable<Doctor> GetDoctors()
         {
             return _db.Doctors;
         }
+
+
 
         public void Remove(int id)
         {
@@ -71,6 +89,10 @@ namespace DoctorFlow_Data.Data
             _db.Doctors.Remove(doctor);
             _db.SaveChanges();
             return;
+        }
+        public Doctor GetByEmail(string email)
+        {
+            return _db.Doctors.FirstOrDefault(d => d.Email == email);
         }
     }
 }

@@ -24,3 +24,6 @@ C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\Doct
 C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Data\obj\Release\DoctorFlow_Data.csproj.CopyComplete
 C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Data\obj\Release\DoctorFlow_Data.dll
 C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Data\obj\Release\DoctorFlow_Data.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Data\bin\Release\System.Web.Cors.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Data\bin\Release\System.Web.Http.Cors.dll
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Data\bin\Release\System.Web.Http.Cors.xml

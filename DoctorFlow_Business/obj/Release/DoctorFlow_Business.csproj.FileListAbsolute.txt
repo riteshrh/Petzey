@@ -15,3 +15,4 @@ C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\Doct
 C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\obj\Release\DoctorFlow_Business.pdb
 C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\Dtos.dll
 C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\Dtos.pdb
+C:\Users\Admin\Documents\Training tasks\Final_Project\DoctorFlow\DoctorFlow\DoctorFlow_Business\bin\Release\DoctorFlow_Business.dll.config

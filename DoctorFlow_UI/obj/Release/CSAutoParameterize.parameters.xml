@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="DoctorDbContext-Web.config Connection String" description="DoctorDbContext Connection String used in web.config by the application to access the database." defaultValue="data source=(localdb)\mssqllocaldb;initial catalog=DoctorFlowDB;integrated security=True;pooling=False;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Admin\\Documents\\Training\ tasks\\Final_Project\\DoctorFlow\\DoctorFlow\\DoctorFlow_UI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DoctorDbContext']/@connectionString" />
-  </parameter>
-</parameters>

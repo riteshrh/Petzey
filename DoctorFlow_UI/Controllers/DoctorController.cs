@@ -8,11 +8,14 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
+using AuthorizeAttribute = System.Web.Http.AuthorizeAttribute;
 using HttpDeleteAttribute = System.Web.Http.HttpDeleteAttribute;
 using HttpGetAttribute = System.Web.Http.HttpGetAttribute;
 using HttpPostAttribute = System.Web.Http.HttpPostAttribute;
 using HttpPutAttribute = System.Web.Http.HttpPutAttribute;
 using RouteAttribute = System.Web.Http.RouteAttribute;
+
+
 
 
 
@@ -24,12 +27,18 @@ namespace DoctorFlow_UI.Controllers
 
 
 
+
+
         [HttpGet]
         [Route("api/doctors")]
+        // [Authorize]
+
         public IHttpActionResult GetDoctors()
         {
             var doctors = doctorManager.GetDoctors();
             if (doctors == null) return NotFound();
+
+
 
 
 
@@ -38,6 +47,8 @@ namespace DoctorFlow_UI.Controllers
                 return Ok(doctors);
             }
         }
+
+
 
 
         [HttpGet]
@@ -52,7 +63,11 @@ namespace DoctorFlow_UI.Controllers
             }
         }
 
+
+
         [HttpGet]
+
+
 
         [Route("api/doctors/name/{name}")]
         public IHttpActionResult GetDoctorByName(string name)
@@ -61,9 +76,26 @@ namespace DoctorFlow_UI.Controllers
             if (data == null) return NotFound();
             return Ok(data);
         }
+        [HttpGet]
+
+
+
+        [Route("api/doctors/email/{email}")]
+        public IHttpActionResult GetDoctorByEmail(string email)
+        {
+            var data = from d in doctorManager.GetDoctors() where d.Email == email select d;
+            if (data == null) return NotFound();
+            return Ok(data);
+        }
+
+
 
         [HttpPost]
         [Route("api/doctors")]
+        // [Authorize]
+
+
+
 
         public IHttpActionResult Post(DoctorDto doctor)
         {
@@ -73,10 +105,12 @@ namespace DoctorFlow_UI.Controllers
             }
             else
             {
-                doctorManager.Add(doctor);
+                this.doctorManager.Add(doctor);
             }
             return Ok();
         }
+
+
 
 
         [HttpDelete]
@@ -85,10 +119,16 @@ namespace DoctorFlow_UI.Controllers
         {
 
 
+
+
             doctorManager.Delete(id);
             return Ok();
 
+
+
         }
+
+
 
 
 
@@ -101,14 +141,14 @@ namespace DoctorFlow_UI.Controllers
                 return BadRequest("Invalid data");
             }
 
+
+
             doctorManager.Update(doctor);
             return Ok();
 
+
+
         }
-
-
-
-
 
 
     }

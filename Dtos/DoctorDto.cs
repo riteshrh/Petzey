@@ -9,7 +9,7 @@ namespace DTOSLibrary
     public class DoctorDto
     {
 
-
+       
         public string DoctorName { get; set; }
 
         public string Speciality { get; set; }

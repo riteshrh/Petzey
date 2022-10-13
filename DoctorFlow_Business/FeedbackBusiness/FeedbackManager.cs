@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace DoctorFlow_Business.FeedbackBusiness
 {
     public class FeedbackManager : IFeedbackManager
@@ -17,18 +19,24 @@ namespace DoctorFlow_Business.FeedbackBusiness
         public void Add(FeedbackDto feedback)
         {
 
-            repository.Add(
-                new Feedback
-                {
 
-                    App_ID = feedback.App_ID,
-                    Comp_level = feedback.Comp_level,
-                    Doctor_Rating = feedback.Doctor_Rating,
-                    Booking_Process = feedback.Booking_Process,
-                    Outcome = feedback.Outcome
-                });
+
+            repository.Add(
+                 new Feedback
+                 {
+
+
+
+                     App_ID = feedback.App_ID,
+                     Comp_level = feedback.Comp_level,
+                     Doctor_Rating = feedback.Doctor_Rating,
+                     Booking_Process = feedback.Booking_Process,
+                     Outcome = feedback.Outcome
+                 });
             return;
         }
+
+
 
         public FeedbackDto GetById(long id)
         {
@@ -43,10 +51,14 @@ namespace DoctorFlow_Business.FeedbackBusiness
             };
         }
 
+
+
         public IEnumerable<Feedback> GetFeedbacks()
         {
             return repository.GetFeedbacks();
         }
+
+
 
         public void Remove(int id)
         {

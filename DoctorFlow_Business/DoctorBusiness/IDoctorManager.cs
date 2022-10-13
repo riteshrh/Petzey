@@ -16,7 +16,7 @@ namespace DoctorFlow_Business.DoctorBusiness
         DoctorDto GetDoctorById(long id);
         void Delete(int id);
         void Update(Doctor doctor);
-
+        Doctor GetDoctorByEmail(string email);
         void Add(DoctorDto doctor);
 
 
