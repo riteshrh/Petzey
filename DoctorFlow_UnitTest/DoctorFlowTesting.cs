@@ -48,7 +48,5 @@ namespace DoctorFlow_UnitTest
             var res = obj.GetByEmail("shashwat16suyash@gmail.com");
             Assert.AreEqual(res.Email, (null));
         }
-
-
-    }
+    }   
 }

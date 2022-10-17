@@ -14,34 +14,17 @@ using HttpGetAttribute = System.Web.Http.HttpGetAttribute;
 using HttpPostAttribute = System.Web.Http.HttpPostAttribute;
 using HttpPutAttribute = System.Web.Http.HttpPutAttribute;
 using RouteAttribute = System.Web.Http.RouteAttribute;
-
-
-
-
-
 namespace DoctorFlow_UI.Controllers
 {
     public class DoctorController : ApiController
     {
         IDoctorManager doctorManager = new DoctorManager();
-
-
-
-
-
         [HttpGet]
         [Route("api/doctors")]
-        // [Authorize]
-
         public IHttpActionResult GetDoctors()
         {
             var doctors = doctorManager.GetDoctors();
             if (doctors == null) return NotFound();
-
-
-
-
-
             else
             {
                 return Ok(doctors);
@@ -62,6 +45,18 @@ namespace DoctorFlow_UI.Controllers
                 return Ok(doctor);
             }
         }
+        [HttpGet]
+        [Route("api/doctorsmailid/{id}")]
+        public IHttpActionResult GetDoctorEmailId(int id)
+        {
+            var doctor = doctorManager.GetDoctorById(id);
+            if (doctor == null)
+                return NotFound();
+            else
+            {
+                return Ok(doctor.Email);
+            }
+        }
 
 
 
@@ -70,6 +65,7 @@ namespace DoctorFlow_UI.Controllers
 
 
         [Route("api/doctors/name/{name}")]
+        [Authorize]
         public IHttpActionResult GetDoctorByName(string name)
         {
             var data = from d in doctorManager.GetDoctors() where d.DoctorName == name select d;
@@ -127,10 +123,6 @@ namespace DoctorFlow_UI.Controllers
 
 
         }
-
-
-
-
 
         [HttpPut]
         // [Route("api/doctors/{doctor}")]
